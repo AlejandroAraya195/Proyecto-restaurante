@@ -1,0 +1,12 @@
+.navegacion {
+    background-color: cyan;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
