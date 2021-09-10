@@ -1,12 +1,16 @@
 .navegacion {
-    background-color: cyan;
+    background-color: #58bcd1;
     height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
+.encabezado {
+    font-size: 50px;
+    margin: 30px;
+    text-align: center;
+}
 
 .nav-h4 {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto;
 }
