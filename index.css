@@ -1,14 +1,17 @@
 body  {
     font-family:Arial, Helvetica, sans-serif ;
-    background-color:#e8e8be;}
+    background-color:#e8e8be;
+}
 
 
 .navegacion {
+    display: flex;
     background-color: #58bcd1;
     height: 50px;
-    display: flex;
+    border-radius: 15px;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
 }
 .encabezado {
     font-size: 50px;
@@ -17,5 +20,8 @@ body  {
 }
 
 .nav-h4 {
-    margin: auto;
+    border: medium #e8e8be solid;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 8px;
 }
