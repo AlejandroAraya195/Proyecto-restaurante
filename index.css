@@ -43,6 +43,8 @@ body  {
     padding: 8px;
     margin: 8px;
     text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.521);
+    display: flex;
+    justify-items: right;
 }
 
 .presentacion {
@@ -73,4 +75,16 @@ body  {
 .h2 {
     text-decoration-line: underline;
     text-decoration-style:inherit;
+}
+
+
+.nav2-h4 {
+    border: thick #292e38f8 solid;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 15px;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.521);
+    display: flex;
+    align-self: flex-end;
+    font-size:20px ;
 }
