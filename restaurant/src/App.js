@@ -18,12 +18,18 @@ function App() {
         <div className="presentacion" >
           <h2 className="h2">Nuestros Productos</h2>
         <div className="presentacion2">
-          <img src={pgimg} className="imagen1" alt="...."/>
-          <div className="presentacion3">
-            <p className="parrafo"> Este restaurante esta pensando para un menú universitario.
+        <div class="card">
+            <img src={pgimg} className="imagen1" alt="...."/>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p className="parrafo"> Este restaurante esta pensando para un menú universitario.
                 <br/>Te ofrecemos los diferentes tipos de menú,
                     rápidos y deliciosos:
                     </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+
+          <div className="presentacion3">
             <ul>
                        <li>Sadnwich</li>
                        <li>Empanadas</li>
@@ -35,6 +41,9 @@ function App() {
             </ul>
         
           </div>
+</div>
+
+
         
         </div>
         <h4 className="nav2-h4">Pedidos y encargues</h4>

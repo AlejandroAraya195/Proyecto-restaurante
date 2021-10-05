@@ -106,7 +106,7 @@ body  {
 }
 
 .imagen1 {
-  height: 250px;
+  height: 150px;
   margin:10px;
   border-radius: 15px;
 }
@@ -126,4 +126,10 @@ body  {
   display: flex;
   align-self: flex-end;
   font-size:20px ;
+}
+
+.card {
+  width: 18rem;
+  border: #282c34 solid;
+  border-radius: 15px;
 }
